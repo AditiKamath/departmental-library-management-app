@@ -3,7 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/librarian_nav_graph"
-    app:startDestination="@id/add_book_fragment">
+    app:startDestination="@id/lib_fine_fragment">
+
+    <fragment android:id="@+id/lib_fine_fragment"
+        android:name="com.example.unicodelibraryapp.LibFineFragment"
+        android:label="Librarian Fine Fragment"
+        tools:layout="@layout/fragment_lib_fine"/>
 
     <fragment
         android:id="@+id/add_book_fragment"
